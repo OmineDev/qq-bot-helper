@@ -2,14 +2,13 @@ package packet
 
 import (
 	"encoding/json"
+
+	"github.com/OmineDev/neomega-plugin-sdk/qq"
 )
 
-type CQPacketType string
+type CQPacketType = qq.CQPacketType
 
-type CQPacket interface {
-	ID() CQPacketType
-	Layers() map[CQPacketType]CQPacket
-}
+type CQPacket = qq.CQPacket
 
 func Parse(data []byte) (pk CQPacket, err error) {
 	var echo *RequestEcho

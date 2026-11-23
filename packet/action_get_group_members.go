@@ -1,16 +1,10 @@
 package packet
 
-type GroupMemberCard struct {
-	GroupUser
-	JoinTime        int32 `json:"join_time"`
-	LastSentTime    int32 `json:"last_sent_time"`
-	Unfriendly      bool  `json:"unfriendly"`
-	TitleExpireTime int64 `json:"title_expire_time"`
-	CardChangeable  bool  `json:"card_changeable"`
-	ShutUpTimestamp int64 `json:"shut_up_timestamp"`
-}
+import "github.com/OmineDev/neomega-plugin-sdk/qq"
 
-type GroupMemberCards []GroupMemberCard
+type GroupMemberCard = qq.GroupMemberCard
+
+type GroupMemberCards = qq.GroupMemberCards
 
 // 获取群成员列表
 type RequestActionGetGroupMemberList struct {

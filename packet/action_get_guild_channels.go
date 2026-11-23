@@ -1,26 +1,12 @@
 package packet
 
-type SlowModeInfo struct {
-	SlowModeKey    int32  `json:"slow_mode_key"`
-	SlowModeText   string `json:"slow_mode_text"`
-	SpeakFrequency int32  `json:"speak_frequency"`
-	SlowModeCircle int32  `json:"slow_mode_circle"`
-}
+import "github.com/OmineDev/neomega-plugin-sdk/qq"
 
-type ChannelInfo struct {
-	OwnerGuildID    string         `json:"owner_guild_id"`
-	ChannelID       string         `json:"channel_id"`
-	ChannelType     int32          `json:"channel_type"`
-	ChannelName     string         `json:"channel_name"`
-	CreateTime      int64          `json:"create_time"`
-	CreatorTinyID   string         `json:"creator_tiny_id"`
-	TalkPermission  int32          `json:"talk_permission"`
-	VisibleType     int32          `json:"visible_type"`
-	CurrentSLowMode int32          `json:"current_slow_mode"`
-	SlowModes       []SlowModeInfo `json:"slow_modes"`
-}
+type SlowModeInfo = qq.SlowModeInfo
 
-type GuildChannels []ChannelInfo
+type ChannelInfo = qq.ChannelInfo
+
+type GuildChannels = qq.GuildChannels
 
 // 获取子频道列表 (指定频道-Guild)
 type RequestActionGetGuildChannelList struct {

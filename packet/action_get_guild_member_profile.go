@@ -1,17 +1,10 @@
 package packet
 
-type RoleInfo struct {
-	RoleID   string `json:"role_id"`
-	RoleName string `json:"role_name"`
-}
+import "github.com/OmineDev/neomega-plugin-sdk/qq"
 
-type GuildMemberProfile struct {
-	TinyID    string     `json:"tiny_id"`
-	Nickname  string     `json:"nickname"`
-	AvatarURL string     `json:"avatar_url"`
-	JoinTime  int64      `json:"join_time"`
-	Roles     []RoleInfo `json:"roles"`
-}
+type RoleInfo = qq.RoleInfo
+
+type GuildMemberProfile = qq.GuildMemberProfile
 
 // 获取频道成员身份组
 type RequestActionGetGuildMemberProfile struct {

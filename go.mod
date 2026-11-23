@@ -1,8 +1,9 @@
 module github.com/OmineDev/qq-bot-helper
 
-go 1.20
+go 1.26
 
 require (
-	github.com/google/uuid v1.5.0
+	github.com/OmineDev/neomega-plugin-sdk v0.1.0
+	github.com/google/uuid v1.6.0
 	github.com/gorilla/websocket v1.5.3
 )

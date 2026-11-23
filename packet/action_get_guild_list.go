@@ -1,12 +1,10 @@
 package packet
 
-type GuildInfo struct {
-	GuildID        string `json:"guild_id"`
-	GuildName      string `json:"guild_name"`
-	GuildDisplayID int64  `json:"guild_display_id"`
-}
+import "github.com/OmineDev/neomega-plugin-sdk/qq"
 
-type GuildList []GuildInfo
+type GuildInfo = qq.GuildInfo
+
+type GuildList = qq.GuildList
 
 // 获取频道列表 (全部)
 type RequestActionGetGuildList struct {
