@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/OmineDev/qq-bot-helper/packet"
+	"qq-bot-helper/packet"
 )
 
 type CQHttpClient struct {

@@ -1,4 +1,4 @@
-module github.com/OmineDev/qq-bot-helper
+module qq-bot-helper
 
 go 1.26
 

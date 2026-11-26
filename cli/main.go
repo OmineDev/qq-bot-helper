@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	cqhttp_helper "github.com/OmineDev/qq-bot-helper"
-	"github.com/OmineDev/qq-bot-helper/packet"
+	cqhttp_helper "qq-bot-helper"
+	"qq-bot-helper/packet"
 )
 
 func main() {
