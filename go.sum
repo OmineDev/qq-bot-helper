@@ -1,5 +1,7 @@
 github.com/OmineDev/neomega-plugin-sdk v0.1.0 h1:vwFP6NbtMCd1BE8hcXcogs+qmYq5f8DKpIW4DP1EaCQ=
 github.com/OmineDev/neomega-plugin-sdk v0.1.0/go.mod h1:/YOnzK9n6032aJQYvAjWS9afJ1a1hADQZf+40xcZ3Y4=
+github.com/OmineDev/neomega-plugin-sdk v0.2.0 h1:nSPVGHaYDkiD3vk0mYr0rYt9XoiD5dIXVVSY7phZbE8=
+github.com/OmineDev/neomega-plugin-sdk v0.2.0/go.mod h1:/YOnzK9n6032aJQYvAjWS9afJ1a1hADQZf+40xcZ3Y4=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
 github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
